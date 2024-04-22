@@ -1,0 +1,103 @@
+/*configurações iniciais*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*corpo da página*/
+body{
+    background-image:linear-gradient(to bottom, #3D3D55, #5a5479);
+    color:#f2f2f2;
+}
+/*barra de navegação*/
+nav{
+    
+    height: 74px;
+    display: flex;
+    justify-content: right;
+    background-color: #2b2828;
+    opacity: 60%;
+}
+/*configurações dos links da lista*/
+.items a{
+    color: #F2f2f2;
+    text-decoration-line: none;
+}
+/*configuração da lista*/
+.lista{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+/*configurações dos items da lista*/
+.items{
+    list-style-type: none;
+    margin-right: 15px;
+}
+/*nome de navegação*/
+.nome{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 20px;
+    text-align: left;
+    color: #F2f2f2;
+    font-size: 14px;
+}
+/*configuração da primeira parte da pagina*/
+.section1{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    
+}
+/*config dos fieldsets*/
+fieldset{
+    display: flex;
+    width:800px;
+    font-size: 22px;
+    border: 2px solid #4d9847;
+}
+
+/*config do titulo do fieldset1*/
+
+.sobre_skill{
+    color: #58ED4B;
+    font-size: 30px;
+    text-shadow: 0px 7px 4px rgba(0,0,0,0.25);
+}
+
+/*configuração da imagem de perfil*/
+.perfil{
+    border-radius: 50%;
+    border: 2px solid #4d9847;
+    margin-right: 5%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 50px;
+    display: flex;
+}
+
+/*config das linhas de separação*/
+hr{
+   
+    border: 2px solid #4d9847;
+}
+
+/*config da parte de projetos*/
+
+.section2{
+    margin-top: 5%;
+    margin-bottom: 50%;
+    
+}
+h1{
+    color: #58ED4B;
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 60px;
+    text-shadow: 0px 7px 4px rgba(0,0,0,0.25);
+}
