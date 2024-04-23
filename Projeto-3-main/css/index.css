@@ -12,28 +12,47 @@ body{
 }
 /*barra de navegação*/
 nav{
-    
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
     height: 74px;
     display: flex;
     justify-content: right;
     background-color: #2b2828;
-    opacity: 60%;
+    opacity: 100%;
 }
 /*configurações dos links da lista*/
 .items a{
     color: #F2f2f2;
     text-decoration-line: none;
+    opacity: 60%;
+    transition-duration: 0.3s;
 }
 /*configuração da lista*/
 .lista{
     display: flex;
     align-items: center;
     margin-right: 40px;
+    font-size: 24px;
 }
 /*configurações dos items da lista*/
 .items{
     list-style-type: none;
     margin-right: 15px;
+    
+}
+.projects:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+.contact:hover{
+    opacity: 100%;
+    cursor: pointer
+}
+.sobre:hover{
+    opacity: 100%;
+    cursor: pointer;
 }
 /*nome de navegação*/
 .nome{
@@ -43,7 +62,7 @@ nav{
     margin-left: 20px;
     text-align: left;
     color: #F2f2f2;
-    font-size: 14px;
+    font-size: 20px;
 }
 /*configuração da primeira parte da pagina*/
 .section1{
