@@ -11,9 +11,9 @@
         <div class="nome"><h3>Gustavo Henrique de Oliveira</h3></div>
         
             <ul class="lista">
-                <li class="items"><a href="#">Projects</a></li>
-                <li class="items"><a href="#">Contact</a></li>
-                <li class="items"><a href="#">Sobre</a></li>
+                <li class="items" ><a onclick="projects()" class="projects" >Projects</a></li>
+                <li class="items" ><a onclick="contact()" class="contact" >Contact</a></li>
+                <li class="items" ><a onclick="sobre()" class="sobre" >Sobre</a></li>
             </ul>
         
     </nav>
@@ -27,17 +27,17 @@
     </section>
     <hr>
     <section class="section2">
-        <h1>Projects</h1>
-        <div>
-            <img src="#">
-            <fieldset>
-                <legend>nome do projeto</legend>
+        <h1>Case: Vinheria Angello</h1>
+        <div id="vinheria">
+            <img class="vinheriaimg" src="./img/projetoVinheria.png" onclick="window.location.href='https://github.com/medeirossteffany/vinheriaAngello';">
+            <fieldset class="fieldsetVinheria">
+                <legend class="vinheriaName">Site da Vinheria</legend>
             </fieldset>
         </div>
-        <div>
-            <img src="#">
-            <fieldset>
-                <legend>nome do projeto</legend>
+        <div id="vinheria">
+            <img class="luminosidadeimg" src="./img/Projetosensorluminosidadew.png" onclick="window.location.href='https://www.linkedin.com/posts/gustavo-henrique-a4aa762b1_ol%C3%A1-rede-hoje-tive-o-prazer-de-compartilhar-activity-7184710654476349440-pXr5?utm_source=share&utm_medium=member_desktop';">
+            <fieldset class="fieldsetLuminosidade">
+                <legend class="vinheriaName">Regulador de Luminosidade</legend>
             </fieldset>
         </div>
         <div>
@@ -59,5 +59,6 @@
     <footer>
         <h5>@2024 - Direitos reservados.</h5>
     </footer>
+    <script src="./script/index.js"></script>
 </body>
 </html>

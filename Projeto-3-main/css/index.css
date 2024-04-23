@@ -90,6 +90,7 @@ hr{
 /*config da parte de projetos*/
 
 .section2{
+    
     margin-top: 5%;
     margin-bottom: 50%;
     
@@ -100,4 +101,51 @@ h1{
     margin-bottom: 10%;
     font-size: 60px;
     text-shadow: 0px 7px 4px rgba(0,0,0,0.25);
+}
+.vinheriaimg{
+    width: 600px;
+    height: 280px;
+    margin-right: 6%;
+    border: 1px solid #6f6e6e;
+    border-radius: 48px;
+    opacity: 70%;
+    transition-duration: 0.5s;
+}
+#vinheria{
+    display: flex;
+    justify-content:right;
+    margin-bottom: 10%;
+}
+.vinheriaName{
+    color: #58ED4B;
+    font-size: 30px;
+    text-shadow: 0px 7px 4px rgba(0,0,0,0.25);
+}
+.fieldsetVinheria{
+    width:40%;
+    margin-right: 5%;
+}
+.vinheriaimg:hover{
+    opacity: 100%;
+    width: 610px;
+    height: 285px
+}
+/*projeto 2*/
+.luminosidadeimg{
+    width:600px;
+    height:280px;
+    border: 1px solid #6f6e6e;
+    border-radius: 48px;
+    margin-right: 6%;
+    opacity: 70%;
+    transition-duration: 0.5s;
+}
+.fieldsetLuminosidade{
+    width:40%;
+    margin-right: 5%;
+}
+.luminosidadeimg:hover{
+    width: 610px;
+    height: 285px;
+    opacity: 100%;
 }
