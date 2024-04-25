@@ -9,6 +9,7 @@
 body{
     background-image:linear-gradient(to bottom, #3D3D55, #5a5479);
     color:#f2f2f2;
+    height: 2000px;
 }
 /*barra de navegação*/
 nav{
@@ -142,12 +143,12 @@ h1{
 }
 .fieldsetVinheria{
     width:40%;
+    height: 200px;
     margin-right: 5%;
 }
 .vinheriaimg:hover{
+    transform: scale(1.1);
     opacity: 100%;
-    width: 610px;
-    height: 285px
 }
 /*projeto 2*/
 .luminosidadeimg{
@@ -162,9 +163,39 @@ h1{
 .fieldsetLuminosidade{
     width:40%;
     margin-right: 5%;
+    height: 200px;
 }
 .luminosidadeimg:hover{
-    width: 610px;
-    height: 285px;
+    transform: scale(1.1);
     opacity: 100%;
+}
+
+/*section 3 contatos*/
+
+/*div das imagens*/
+.social_images{
+    width: 100%;
+    text-align: center;
+    
+}
+/*config das imagens*/
+.contact_items{
+    margin: 0 60px;
+    transform: scale(2.0);
+    transition-duration: 0.5s;
+}
+/*rodape*/
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
+/*config da section*/
+.contatos{
+    background-image: linear-gradient(to bottom, #222020, #3e2e2e);
+    margin: 0;
+    padding: 0;
+}
+/*expansáo das imagens*/
+.contact_items:hover{
+    transform: scale(2.4);
 }
